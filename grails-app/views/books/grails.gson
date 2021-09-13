@@ -1,0 +1,5 @@
+import example.grails.Book
+model {
+    Book book
+}
+json tmpl.book(book)
